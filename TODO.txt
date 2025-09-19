@@ -1,0 +1,38 @@
+Din uppgift är att styla sidan med hjälp av bootstrap.
+Ni får mer frihet i denna uppgift än hamburgar-sidan.
+Det är alltså okej att lägga till text.
+Ni får dock inte använda css, utan stylingen ska endast komma från bootstrap klasser.
+
+För mer info om bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
+För att testa sidan på olika skärmstorlekar klickar du ctrl + shift + I och sedan ctrl+shift+M
+
+Bootstrap som vi kommer att prata om
+Container
+Row
+Column
+Grid
+Padding
+Margin
+Border
+Justify-content
+Align-items
+Komponenter (t.ex. Navbar & knappar)
+
+TODO - Uppgifter
+Styla header
+Styla nav
+Styla footer
+Se till att sidan ser snygg ut oavsett skärmstorlek.
+
+Lägg till info om dina 3 favoriter inom film, musik och serier på respektive sidor.
+Du får lägga till fler än 3 på varje sida.
+Lägg till en bild på var och en av dem.
+Styla dessa så att de har en fokuserat placering på sidan.
+
+
+TODO - Extrauppgifter
+Styla dina 3 sidor om musik, serier och filmer på olika sätt.
+Lägg till funktionalitet så att informationen om en film expanderas när man t.ex. klickar på bilden.
+Skapa kod i init.js så att header och footer skapas dynamiskt.
+Lägg till en drop-down t.ex. "Movies" droppar ner alternativen All movies, 2000s, 1900s. 2000s och 1900s behöver inte ha fungerande länkar.
+Kolla gärna in bootstraps hemsida för mer saker du kan lägga till.
