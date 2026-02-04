@@ -14,42 +14,57 @@
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="series.html">Series</a></li>
-          <li><a href="music.html">Music</a></li>
-        </ul>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse offset-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="series.html">Series</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <main>
-      <p>Film 1</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-
-      <p>Film 2</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-
-      <p>Film 3</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
+    <main class = "container">
+        <div class = "row">
+            <div class = "col-4">
+              <p>FNAF 2</p>
+              <p>Utgivningsår: 2025</p>
+              <p>Skådespelare: Mckenna Grace, Elizabeth Lail, Megan Fox, MatPat</p>
+              <p>IMDB-länk:<a href="https://www.imdb.com/title/tt30274401/" target="_blank"> https://www.imdb.com/title/tt30274401/</a></p>
+              <p>Genre: Skräck</p>
+            </div>
+            <div class = "col-4">
+                <p>Spy Next Door</p>
+                <p>Utgivningsår: 2010</p>
+                <p>Skådespelare: Jackie Chan, Amber Valletta, Billy Ray Cyrus</p>
+                <p>IMDB-länk:<a href="http://imdb.com/title/tt1273678/" target="_blank"> https://imdb.com/title/tt1273678/</a></p>
+                <p>Genre: Action/komedi</p>
+            </div>
+            <div class = "col-4">
+                <p>Borat</p>
+                <p>Utgivningsår: 2006</p>
+                <p>Skådespelare:</p>
+                <p>IMDB-länk: <a href="https://www.imdb.com/title/tt0443453/" target="_blank"> https://www.imdb.com/title/tt0443453/</a></p>
+                <p>Genre:</p>
+            </div>
+        </div>
     </main>
-    <footer>
+    <footer class="text-center bottom">
       <p>© 2021</p>
     </footer>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"
-  ></script>
+
 </html>
