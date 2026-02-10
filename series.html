@@ -4,52 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tv-Series</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="series.html">Series</a></li>
-          <li><a href="music.html">Music</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav row">
+              <li class="nav-item col-6 col-lg-auto flex-fill">
+                <a class="nav-link" href="index.html"><i class="fa-solid fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item col-6 col-lg-auto flex-fill">
+                <a class="nav-link" href="movies.html"><i class="fa-solid fa-film"></i> Movies</a>
+              </li>
+              <li class="nav-item col-6 col-lg-auto flex-fill">
+                <a class="nav-link" href="music.html"><i class="fa-solid fa-music"></i> Music</a>
+              </li>
+              <li class="nav-item active col-6 col-lg-auto flex-fill">
+                <a class="nav-link" href="series.html"><i class="fa-solid fa-tv text-primary"></i> <strong>Series</strong></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
-    <main>
-      <p>Series 1</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-
-      <p>Series 2</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-
-      <p>Series 3</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
+    <main class="container-fluid py-2 bg-light rounded">
+      <div class="row gap-3 justify-content-center">
+        <div class="col-md-3 col-sm-6 bg-white rounded p-2">
+          <img src="img/bb.jpeg" alt="Breaking Bad" class="img-fluid rounded mb-3 shadow">
+          <h4><strong>Breaking Bad</strong></h4>
+          <p><strong>Utgivningsår:</strong> 2008-2013</p>
+          <p><strong>Skådespelare:</strong> Bryan Cranston, Aaron Paul, Anna Gunn</p>
+          <p><strong>Genre:</strong> Drama, Crime, Thriller</p>
+          <div>
+            <a href="https://www.imdb.com/title/tt0903747/" class="btn btn-primary btn-lg shadow" target="_blank">IMDB
+              <i class="fa-solid fa-link fa-lg"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 bg-white rounded p-2">
+          <img src="img/to.jpeg" alt="The Office" class="img-fluid rounded mb-3 shadow">
+          <h4><strong>The Office</strong></h4>
+          <p><strong>Utgivningsår:</strong> 2005-2013</p>
+          <p><strong>Skådespelare:</strong> Steve Carell, John Krasinski, Rainn Wilson</p>
+          <p><strong>Genre:</strong> Comedy, Drama</p>
+          <div>
+            <a class="btn btn-primary btn-lg shadow" href="https://www.imdb.com/title/tt0386676/" target="_blank">IMDB 
+              <i class="fa-solid fa-link fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 bg-white rounded p-2">
+          <img src="img/tc.jpeg" alt="The crown" class="img-fluid rounded shadow mb-3">
+          <h4><strong>The Crown</strong></h4>
+          <p><strong>Utgivningsår:</strong> 2016-2023</p>
+          <p><strong>Skådespelare:</strong> Olivia Colman, Imelda Staunton, Tobias Menzies</p>
+          <p><strong>Genre:</strong> Drama, History</p>
+          <div>
+            <a class="btn btn-primary btn-lg shadow" href="https://www.imdb.com/title/tt4786824/" target="_blank">IMDB 
+              <i class="fa-solid fa-link fa-lg"></i></a>
+          </div>
+        </div>
+      </div>  
     </main>
-    <footer>
-      <p>© 2021</p>
-    </footer>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted mt-4 position-relative bottom-0 w-100">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-user me-3"></i> Ramez online entertainment portfolio
+          </h6>
+          <p>
+            Welcome to my online entertainment portfolio where I share my favorite movies, music, and TV series. Explore and enjoy!
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="index.html" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="movies.html" class="text-reset">Movies</a>
+          </p>
+          <p>
+            <a href="music.html" class="text-reset">Music</a>
+          </p>
+          <p>
+            <a href="series.html" class="text-reset">Series</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Stockholm, Sweden, or smth</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            ramezzaryab@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +46 733 443 84</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2026 Copyright:
+    <a class="text-reset fw-bold">Ramez Benjamin Zariab (def inte MDbootstrap)</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
